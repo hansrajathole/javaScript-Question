@@ -865,4 +865,34 @@
 
 
 
+// Hollow RHOMBUS
+// let n = 5
+// let holloww = ""
+// function hollow(){
+//     for(let i = 1 ; i <=n*2-i ; i++){
+//         let str = ""
+//         for (let j = 1 ; j<=n-i ; j++){
+//             str +="  "
+//         }
+//         for(let k = 1 ; k<=n ; k++){
+//             if((i==1 || k == 1) || (i== n || k==n)){
+//                 str += "* "
+//             }
+//             else{
+//                 str += "  "
+//             }
+//         }
+//         holloww += str + "\n"
+//     }
+//     return holloww
+// }
+// console.log(hollow(n));
+
+
+
+
+
+
+
+
 
