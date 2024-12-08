@@ -890,7 +890,40 @@
 
 
 
+// Diamond pettern
+// let n = 4
+// let di =""
 
+// function diamond(n){
+//     for(let i = 1 ; i<= n ; i++){
+//         let str = ""
+//         for(let l = 1 ; l<=n-i ; l++){
+//             str += "  "
+//         }
+//         for(let j = 1 ; j<=(i*2)-1; j++){
+//             str += "* "
+//         }
+        
+//         di += str + "\n"
+    
+//     }
+//     for(let i = n ; i>=0 ; i--){
+//         let str = ""
+//         for(let l = 1 ; l<=n-i ; l++){
+//             str += "  "
+//         }
+//         for(let j = 1 ; j<=i*2-1; j++){
+//             str += "* "
+//         }
+        
+//         di += str + "\n"
+    
+//     }
+
+//     return di
+// }
+
+// console.log(diamond(n));
 
 
 
