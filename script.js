@@ -5,17 +5,12 @@
 // let b = 7;
 // console.log(`Sum of ${a} & ${b} is ${a+b}`);
 
-
-
 //=====================================================================
 //                                   Question no.2
 
 // let name = prompt("enter your name");
 // let age = Number(prompt("enter your age"));
 // console.log(`Hello ${name}, you are ${age} year old`);
-
-
-
 
 //=====================================================================
 //                                   Question no.3
@@ -25,7 +20,6 @@
 // let parameter = 2 * (length + width);
 // let area = a*b;
 // console.log(`area is ${area} and parameter is ${parameter}`);
-
 
 //=====================================================================
 //                                   Question no.4
@@ -38,7 +32,6 @@
 //     console.log(a+ " is odd");
 // }
 
-
 //=====================================================================
 //                                   Question no.5
 
@@ -49,8 +42,6 @@
 // }else{
 //     console.log("hello "+username +" you will be a eligible to vote in "+(18-age)+" years.");
 // }
-
-
 
 //=====================================================================
 //                                   Question no.6
@@ -81,10 +72,9 @@
 //     break;
 
 //   default:
-//     console.log("Wrong daay!!!"); 
+//     console.log("Wrong daay!!!");
 //     break;
 // }
-
 
 //=====================================================================
 //                                   Question no.7
@@ -98,10 +88,8 @@
 
 // console.log(`Area ${Area} sq units`);
 
-
 //=====================================================================
 //                                   Question no.8
-
 
 // let a = parseInt(prompt("enter value of a"));
 // let b = parseInt(prompt("enter value of b"));
@@ -110,13 +98,11 @@
 //     console.log(`${a} is Gretest`);
 // }else{
 //     console.log(`${b} is Gretest`);
-    
-// }
 
+// }
 
 //=====================================================================
 //                                   Question no.9
-
 
 // let a = parseInt(prompt("enter number"));
 
@@ -126,10 +112,8 @@
 //     console.log(`${b} is an odd `);
 // }
 
-
 //=====================================================================
 //                                   Question no.12
-
 
 // let year = parseInt(prompt("enter year"));
 
@@ -141,11 +125,8 @@
 //     console.log("this is leap year");
 // }
 
-
-
 //=====================================================================
 //                                   Question no.13
-
 
 // let unit = parseInt(prompt("enter units"));
 // let total = 0;
@@ -156,17 +137,15 @@
 // }else if(unit >100 && unit <= 200){
 //     total = (100*4.2)+((unit-100)*6)
 //     console.log(`Total bill amount is : ${total}`);
-    
+
 // }else if(unit >200 && unit <=  400){
 //     total = (100*4.2)+((unit-100)*6)+((unit-200)*8)
 //     console.log(`Total bill amount is : ${total}`);
-    
+
 // }else{
 //     total = (100*4.2)+((unit-100)*6)+((unit-200)*8)+((unit-400)*13);
-//     console.log(`Total bill amount is : ${total}`);   
+//     console.log(`Total bill amount is : ${total}`);
 // }
-
-
 
 // let unit = parseInt(prompt("enter units"));
 // let total = 0;
@@ -185,51 +164,43 @@
 
 // console.log(total);
 
-
-
 //=====================================================================
 //                                   Question no.14
-
 
 // let totalPrice = parseInt(prompt("enter your product price"));
 
 // if(totalPrice >= 0 && totalPrice <= 5000){
 //     totalPrice = totalPrice - (totalPrice *0 )/100;
-//     console.log(`Payble amount is ${totalPrice}`);   
+//     console.log(`Payble amount is ${totalPrice}`);
 // }
 
 // else if(totalPrice >= 5000 && totalPrice <= 7000){
 //     totalPrice = totalPrice - (totalPrice *5 )/100;
-//     console.log(`Payble amount is ${totalPrice}`);   
+//     console.log(`Payble amount is ${totalPrice}`);
 // }
 
 // else if(totalPrice >= 7000 && totalPrice <= 9000){
 //     totalPrice = totalPrice - (totalPrice *10 )/100;
-//     console.log(`Payble amount is ${totalPrice}`);   
+//     console.log(`Payble amount is ${totalPrice}`);
 // }
 
 // else if(totalPrice >= 9000){
 //     totalPrice = totalPrice - (totalPrice *20 )/100;
-//     console.log(`Payble amount is ${totalPrice}`);   
+//     console.log(`Payble amount is ${totalPrice}`);
 // }
-
-
 
 //=====================================================================
 //                                   Question no.15
-
 
 // let n = parseInt(prompt("enter n number"));
 
 // for(let i = 1 ; i<= n ; i++){
 //     console.log("Hello world !");
-    
-// }
 
+// }
 
 //=====================================================================
 //                                   Question no.16
-
 
 // let ntl = parseInt(prompt("Enter the Natural number"));
 // let str = "";
@@ -239,13 +210,8 @@
 // }
 // console.log(str);
 
-
-
-
-
 //=====================================================================
 //                                   Question no.17
-
 
 // let ntl = parseInt(prompt("Enter the Natural number"));
 // let sum = 0;
@@ -254,12 +220,8 @@
 // }
 // console.log(sum);
 
-
-
 //=====================================================================
 //                                   Question no.18
-
-
 
 // let ntl = parseInt(prompt("Enter the Natural number"));
 // let fack = 1;
@@ -267,8 +229,6 @@
 //    fact *=i;
 // }
 // console.log(sum);
-
-
 
 //=====================================================================
 //                                   Question no.19
@@ -279,7 +239,7 @@
 //     if(n % i == 0 ){
 //        count++;
 //     }
-    
+
 // }
 
 // if(count == 2){
@@ -289,12 +249,8 @@
 //     console.log("not a prime number");
 // }
 
-
-
-
 //=====================================================================
 //                                   Question no.20
-
 
 // let n = Number(prompt("Enter the number"));
 // let sum = 0;
@@ -309,15 +265,12 @@
 
 // console.log(sum);
 
-
-
 //=====================================================================
 //                                   Question no.21
 
-
 // let n = Number(prompt("Enter the number"));
 // let rev = 0;
-// let rem = 0; 
+// let rem = 0;
 // while(n>0){
 //     rem = n%10;
 //     rev = (rem*10)+rem;
@@ -329,24 +282,20 @@
 //=====================================================================
 //                                   Question no.22
 
-
 // let n = Number(prompt("Enter the number"));
 // let swip = n;
-// let rev = 0; 
+// let rev = 0;
 // while(swip>0){
 //     rev = (rev * 10)+ (swip%10);
 //     swip = Math.floor(swip/10);
 // }
 
-
 // if(n === rev){
 //     console.log(`${rev} is Pallindrome Number`);
 // }else{
 //     console.log(`${rev} is not Pallindrome Number`);
-    
+
 // }
-
-
 
 //=====================================================================
 //                                   Question no.23
@@ -370,8 +319,6 @@
 
 // console.log(copy===ans?"strong number":"not a ftrong number");
 
-
-
 //=====================================================================
 //                                   Question no.24
 
@@ -386,22 +333,15 @@
 // }
 // console.log(copy === sqr%Math.pow(10,count)?"automarphic ":"not automarphic");
 
-
-
-
-
 //=====================================================================
 //                                   Question no.25
-
-
-
 
 // let n = Number(prompt("Enter the number"));
 // let sum = 0;
 // let rem = 0;
 
 // while(n>0 || sum>9){
-    
+
 //     if(n==0){
 //         n=sum;
 //         sum = 0;
@@ -413,11 +353,8 @@
 
 // console.log(sum);
 
-
-
 //=====================================================================
 //                                   Question no.26
-
 
 // let n = 10;
 // let privous = 0;
@@ -428,16 +365,11 @@
 //     console.log(next);
 //     privous = current;
 //     current = next;
-    
+
 // }
-
-
-
-
 
 //=====================================================================
 //                                   Question no.27
-
 
 // let i;
 // do{
@@ -445,13 +377,8 @@
 //     i = Number(prompt("Enter number"))
 // }while(i!=0);
 
-
-
-
-
 //=====================================================================
 //                                   Question no.28
-
 
 // let n,first,sencond;
 
@@ -461,7 +388,6 @@
 //     console.log("Enter 3 for Multiplication");
 //     console.log("Enter 4 for Division");
 //     console.log(" ");
-    
 
 //     n = Number(prompt("Enter the calculator number"))
 //     if(n<0 || n>4)break
@@ -472,49 +398,43 @@
 //             first = Number(prompt("Enter the First number"));
 //             sencond = Number(prompt("Enter the second number"));
 //             console.log("Sum "+(first+sencond));
-            
-//         }           
+
+//         }
 //             break;
 //         case 2:{
 //             console.log("you select Substraction");
 //             first = Number(prompt("Enter the First number"));
 //             sencond = Number(prompt("Enter the second number"));
 //             console.log("Substraction "+(first-sencond));
-            
-//         }           
+
+//         }
 //             break;
 //         case 3:{
 //             console.log("you select Multiplication");
 //             first = Number(prompt("Enter the First number"));
 //             sencond = Number(prompt("Enter the second number"));
 //             console.log("Multiplication "+(first*sencond));
-            
-//         }          
+
+//         }
 //             break;
 //         case 4:{
 //             console.log("you select Division");
 //             first = Number(prompt("Enter the First number"));
 //             sencond = Number(prompt("Enter the second number"));
 //             console.log("Division "+(first/sencond));
-            
-//         }           
+
+//         }
 //             break;
-    
-        
+
 //     }
 
 //     n = Number(prompt("if you want to continue, press any key and 0 for exit"))
 //     console.log(" ");
-    
-    
+
 // }while(n!=0);
-
-
-
 
 //=====================================================================
 //                                   Question no.29
-
 
 // let random = parseInt(Math.random()*100);
 
@@ -527,19 +447,13 @@
 //     }
 //     else if(guess > random){
 //         console.log("to high");
-//         alert("to high try again!!")   
+//         alert("to high try again!!")
 //     }
 //     else{
 //         console.log("to high");
 //         alert("to low Try again!")
 //     }
 // }
-
-
-
-
-
-
 
 //=====================================================================
 //                                   Question no.30
@@ -553,10 +467,8 @@
 //         str += "*"
 //     }
 //     console.log(str);
-    
+
 // }
-
-
 
 //=====================================================================
 //                                   Question no.31
@@ -569,19 +481,14 @@
 //     }
 //     console.log(str);
 //     // str = ""
-    
+
 // }
-
-
-
-
 
 //=====================================================================
 //                                   Question no.32
 
 // Patte r n   -   R i g ht   Tr i a n g l e   ( Al p h a b et)
-// Accept an integer n and print the following pattern for n. 
-
+// Accept an integer n and print the following pattern for n.
 
 // Process : 1
 // let n = 5;
@@ -594,8 +501,6 @@
 //     console.log(str)
 // }
 
-
-
 // Process : 2
 // let n = 5//Number(prompt("Enter the number"))
 // for(let i = 1 ; i<= n ; i++){
@@ -606,15 +511,14 @@
 //         a++
 //     }
 //     console.log(str);
-    
-// }
 
+// }
 
 //=====================================================================
 //                                   Question no.33
 
 // I nve r te d   R i g ht   Tr i a n g l e
-// Accept an integer n and print the following pattern for n. 
+// Accept an integer n and print the following pattern for n.
 
 // let n = 5//Number(prompt("Enter the number"))
 // for(let i = 1 ; i<=n ; i++){
@@ -623,15 +527,11 @@
 //         str += "*  "
 //     }
 //     console.log(str);
-    
+
 // }
-
-
-
 
 //=====================================================================
 //                                   Question no.34
-
 
 // let n = 5//Number(prompt("Enter the number"))
 // for(let i = 1 ; i<=n ; i++){
@@ -643,28 +543,11 @@
 //         str += "* "
 //     }
 //     console.log(str);
-    
+
 // }
-
-
 
 //=====================================================================
 //                                   Question no.35
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // practice Question
 
@@ -676,59 +559,52 @@
 //             console.log(index);
 //         }
 //     })
-    
+
 // }
 
 // findIdx(arr, 60);
 
-
 // find minimum
 
 // function findMin(arr){
-//     let min = Math.min();  
+//     let min = Math.min();
 //     arr.forEach((val)=>{
 //         if(min>val){
 //             min=val;
 //         }
-        
+
 //     })
 //     console.log(min);
 // }
 
 // findMin(arr);
 
-
-
 // function findMax(arr){
-//     let max = Math.max();   
+//     let max = Math.max();
 //     arr.forEach((val)=>{
 //         if(max<val){
 //             max=val;
-//             // console.log(val);           
+//             // console.log(val);
 //         }
-        
+
 //     })
 //     console.log(max);
 // }
 
 // findMax(arr);
 
-
-
 // reverse string
 
 // let str = "hello"
 
 // let rev = (str)=>{
-  
+
 //     //  let arr = str.split('')
 //     //  let rArray = arr.reverse()
-//     //  let r = rArray.join('')  
+//     //  let r = rArray.join('')
 
 //      return str.split('').reverse().join('');
 // }
-
-
 
 // palindrome
 
@@ -742,46 +618,40 @@
 //     console.log("palindrome");
 // }else{
 //     console.log("not palindrome");
-    
-// }
 
+// }
 
 // check the number is fizzbuzz or fizz or buzz
 // for(let i = 1 ; i <=100 ; i++){
 
-    // if(i%3==0 && i%5==0){
-    //     console.log("fizzbuzz");
-        
-    // }else{
-    //     if(i%3==0){
-    //         console.log("fizz");
-    //     }else{
-    //         if(i%5==0){
-    //             console.log("buzz");
-    //         }else{
-    //             console.log(i);
-    //         }
-    //     }
-    // }
-    // if(i%3==0 && i%5 == 0){
-    //     console.log("fizzbuzz");
-    // }
-    // else if(i%3==0){
-    //     console.log("fizz");
-    // }
-    // else if(i%5==0){
-    //     console.log("buzz");
-    // }
-    // else{
-    //     console.log(i);
-        
-    // }
+// if(i%3==0 && i%5==0){
+//     console.log("fizzbuzz");
+
+// }else{
+//     if(i%3==0){
+//         console.log("fizz");
+//     }else{
+//         if(i%5==0){
+//             console.log("buzz");
+//         }else{
+//             console.log(i);
+//         }
+//     }
 // }
+// if(i%3==0 && i%5 == 0){
+//     console.log("fizzbuzz");
+// }
+// else if(i%3==0){
+//     console.log("fizz");
+// }
+// else if(i%5==0){
+//     console.log("buzz");
+// }
+// else{
+//     console.log(i);
 
-
-
-
-
+// }
+// }
 
 // find max number
 // let arr =  [1, 5, 3, 9]
@@ -796,24 +666,15 @@
 
 // console.log(max)
 
-
-
-
-
-// print table of n 
+// print table of n
 
 // let n = 6
 // for(let i = n ; i<=n*10 ; i+=n){
 //     console.log(i);
 // }
 
-
-
-
-
-
 // print reverse tringle of number
-// let n = 5 
+// let n = 5
 
 // for(let i = 1 ; i<=n ; i++){
 //     let str = ""
@@ -821,14 +682,8 @@
 //         str += j;
 //     }
 //     console.log(str);
-    
+
 // }
-
-
-
-
-
-
 
 // print tringle of star
 
@@ -845,13 +700,8 @@
 // //         str +="  "
 //     //  }
 //      console.log(str);
-    
+
 //  }
-
-
-
-
-
 
 // print reverse tringle of star
 // let n = 5
@@ -859,7 +709,7 @@
 //     let str = ""
 //     for(let j = 0 ; j<i ; j++){
 //         str +=" "
-        
+
 //     }
 //     for(let k = 0 ; k<=n-i-1 ; k++){
 //         str +="* "
@@ -868,13 +718,8 @@
 //     //     str +="  "
 //     // }
 //     console.log(str);
-    
+
 // }
-
-
-
-
-
 
 // print pyramid of star
 // let n= 5
@@ -883,14 +728,10 @@
 //     for(let j = 1 ; j<=i ; j++){
 //         process.stdout.write("* ")
 //     }
-//     console.log();  
+//     console.log();
 // }
 
-
-
-
-
-// print alphabet 
+// print alphabet
 // let n= 5
 // let term = 65
 // for(let i = 1 ; i<=n ; i++){
@@ -900,14 +741,10 @@
 //         term++
 //     }
 //     console.log();
-    
+
 // }
 
-
-
-
-
-//print 0 1 in tringle 
+//print 0 1 in tringle
 // let n= 5
 // count = 2;
 // for(let i = 1 ; i<=n ; i++){
@@ -917,16 +754,12 @@
 //         }
 //         else {
 //             process.stdout.write("0 ")
-            
+
 //         }
 //     }
 //     console.log();
-    
+
 // }
-
-
-
-
 
 // for(let i = 1 ; i<=n ; i++){
 //     for(let j= 1 ; j<=5  ; j++){
@@ -937,67 +770,63 @@
 //         }
 //     }
 //     console.log();
-    
+
 // }
 
-
-// hollow rectangle 
+// hollow rectangle
 // let n = 5;
 
 // for(let i = 1 ; i<=n ; i++){
 //     let str =""
 //     for (let j = 1 ; j<=n-i; j++){
-//         str +="  " 
+//         str +="  "
 //     }
 //     for(let k = 1 ; k <=i; k++){
 //         str += "* "
 //     }
-    
+
 //     console.log(str);
-    
+
 // }
 
-
-
-
-// print butterfly 
-let n = 4
-
-for(let i = 1 ; i<= n ; i++){
-    let str = ""
-    for(let j = 1 ; j<=i ; j++){
-        str += "* "
+// print butterfly
+let n = 4;
+let stss = "";
+function butterfly(n) {
+  for (let i = 1; i <= n; i++) {
+    let str = "";
+    for (let j = 1; j <= i; j++) {
+      str += "* ";
     }
-    for(let k = 1 ; k<= 2*n-i-i ; k++){
-        str += "  "
+    for (let k = 1; k <= 2 * n - i - i; k++) {
+      str += "  ";
     }
-    for(let l = 1 ; l<=i ; l++){
-        str += "* "
+    for (let l = 1; l <= i; l++) {
+      str += "* ";
     }
-    console.log(str);
-    
+    stss += str + "\n";
+  }
 
+  // miror method one
+  for (let i = n; i > 0; i--) {
+    let str = "";
+    for (let j = 1; j <= i; j++) {
+      str += "* ";
+    }
+    for (let k = 1; k <= 2 * n - i - i; k++) {
+      str += "  ";
+    }
+    for (let l = 1; l <= i; l++) {
+      str += "* ";
+    }
+    stss += str + "\n";
+  }
+  return stss;
 }
 
+console.log(butterfly(n));
 
-for(let i = n ; i > 0 ; i--){
-    let str = ""
-    for(let j = 1 ; j<=i ; j++){
-        str += "* "
-    }
-    for(let k = 1 ; k<= 2*n-i-i ; k++){
-        str += "  "
-    }
-    for(let l = 1 ; l<=i ; l++){
-        str += "* "
-    }
-    console.log(str);
-    
-
-}
-
-
-
+// miror method two
 // for(let i = 1 ; i<= n ; i++){
 //     let str = ""
 //     for(let l = 1 ; l<=n-i+1 ; l++){
@@ -1010,6 +839,5 @@ for(let i = n ; i > 0 ; i--){
 //         str += "* "
 //     }
 //     console.log(str);
-    
 
 // }
