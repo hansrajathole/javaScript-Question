@@ -790,41 +790,41 @@
 // }
 
 // print butterfly
-let n = 4;
-let stss = "";
-function butterfly(n) {
-  for (let i = 1; i <= n; i++) {
-    let str = "";
-    for (let j = 1; j <= i; j++) {
-      str += "* ";
-    }
-    for (let k = 1; k <= 2 * n - i - i; k++) {
-      str += "  ";
-    }
-    for (let l = 1; l <= i; l++) {
-      str += "* ";
-    }
-    stss += str + "\n";
-  }
+// let n = 4;
+// let stss = "";
+// function butterfly(n) {
+//   for (let i = 1; i <= n; i++) {
+//     let str = "";
+//     for (let j = 1; j <= i; j++) {
+//       str += "* ";
+//     }
+//     for (let k = 1; k <= 2 * n - i - i; k++) {
+//       str += "  ";
+//     }
+//     for (let l = 1; l <= i; l++) {
+//       str += "* ";
+//     }
+//     stss += str + "\n";
+//   }
 
-  // miror method one
-  for (let i = n; i > 0; i--) {
-    let str = "";
-    for (let j = 1; j <= i; j++) {
-      str += "* ";
-    }
-    for (let k = 1; k <= 2 * n - i - i; k++) {
-      str += "  ";
-    }
-    for (let l = 1; l <= i; l++) {
-      str += "* ";
-    }
-    stss += str + "\n";
-  }
-  return stss;
-}
+//   // miror method one
+//   for (let i = n; i > 0; i--) {
+//     let str = "";
+//     for (let j = 1; j <= i; j++) {
+//       str += "* ";
+//     }
+//     for (let k = 1; k <= 2 * n - i - i; k++) {
+//       str += "  ";
+//     }
+//     for (let l = 1; l <= i; l++) {
+//       str += "* ";
+//     }
+//     stss += str + "\n";
+//   }
+//   return stss;
+// }
 
-console.log(butterfly(n));
+// console.log(butterfly(n));
 
 // miror method two
 // for(let i = 1 ; i<= n ; i++){
@@ -841,3 +841,28 @@ console.log(butterfly(n));
 //     console.log(str);
 
 // }
+
+
+
+//Print solid rhombus pettern
+// let n = 5
+// let solidp = ""
+// function solid(){
+//     for(let i = 1 ; i <=n*2-i ; i++){
+//         let str = ""
+//         for (let j = 1 ; j<=n-i ; j++){
+//             str +="  "
+//         }
+//         for(let k = 1 ; k<=n ; k++){
+//             str += "* "
+//         }
+//         solidp += str + "\n"
+//     }
+//     return solidp
+// }
+
+// console.log(solid(n))
+
+
+
+
