@@ -730,6 +730,7 @@
 
 
 
+// palindrome
 
 // let str = "madam"
 
@@ -745,7 +746,7 @@
 // }
 
 
-
+// check the number is fizzbuzz or fizz or buzz
 // for(let i = 1 ; i <=100 ; i++){
 
     // if(i%3==0 && i%5==0){
@@ -762,8 +763,6 @@
     //         }
     //     }
     // }
-
-
     // if(i%3==0 && i%5 == 0){
     //     console.log("fizzbuzz");
     // }
@@ -781,6 +780,10 @@
 
 
 
+
+
+
+// find max number
 // let arr =  [1, 5, 3, 9]
 // let max = arr[0]
 
@@ -793,14 +796,23 @@
 
 // console.log(max)
 
-// let n = 6
 
+
+
+
+// print table of n 
+
+// let n = 6
 // for(let i = n ; i<=n*10 ; i+=n){
 //     console.log(i);
-    
 // }
 
 
+
+
+
+
+// print reverse tringle of number
 // let n = 5 
 
 // for(let i = 1 ; i<=n ; i++){
@@ -816,13 +828,15 @@
 
 
 
+
+
+// print tringle of star
+
 // let n = 5
-// for(let i = 0 ; i<n; i++){
+// for(let i = 1 ; i<=n; i++){
 //     let str = ""
 //     for(let j = 0 ; j<= n-i-1 ; j++){
 //         str +="  "
-//         // console.log("asd");
-        
 //     }
 //     for(let k = 0 ; k<2*i+1 ; k++){
 //         str +="* "
@@ -836,12 +850,15 @@
 
 
 
+
+
+
+// print reverse tringle of star
 // let n = 5
 // for(let i = 1 ; i<n; i++){
 //     let str = ""
 //     for(let j = 0 ; j<i ; j++){
 //         str +=" "
-//         // console.log("asd");
         
 //     }
 //     for(let k = 0 ; k<=n-i-1 ; k++){
@@ -855,15 +872,25 @@
 // }
 
 
+
+
+
+
+// print pyramid of star
 // let n= 5
 
 // for(let i = n ; i>=0 ; i--){
 //     for(let j = 1 ; j<=i ; j++){
 //         process.stdout.write("* ")
 //     }
-//     console.log();
-    
+//     console.log();  
 // }
+
+
+
+
+
+// print alphabet 
 // let n= 5
 // let term = 65
 // for(let i = 1 ; i<=n ; i++){
@@ -878,17 +905,19 @@
 
 
 
-let n= 4
+
+
+//print 0 1 in tringle 
+// let n= 5
 // count = 2;
 // for(let i = 1 ; i<=n ; i++){
 //     for(let j = 1; j<=i ; j++){
-//         if(count%2==0){
+//         if((i+j)%2==0){
 //             process.stdout.write("1 ")
-//             count--
 //         }
 //         else {
 //             process.stdout.write("0 ")
-//             count++
+            
 //         }
 //     }
 //     console.log();
@@ -896,14 +925,34 @@ let n= 4
 // }
 
 
-for(let i = 1 ; i<=n ; i++){
-    for(let j= 1 ; j<=5  ; j++){
-        if((i==1 || j==1) || (i==4 || j== 5)){
-            process.stdout.write("* ")
-        }else{
-            process.stdout.write("  ")
-        }
-    }
-    console.log();
+
+
+
+// for(let i = 1 ; i<=n ; i++){
+//     for(let j= 1 ; j<=5  ; j++){
+//         if((i==1 || j==1) || (i==4 || j== 5)){
+//             process.stdout.write("* ")
+//         }else{
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log();
     
-}
+// }
+
+
+// hollow rectangle 
+// let n = 5;
+
+// for(let i = 1 ; i<=n ; i++){
+//     let str =""
+//     for (let j = 1 ; j<=n-i; j++){
+//         str +="  " 
+//     }
+//     for(let k = 1 ; k <=i; k++){
+//         str += "* "
+//     }
+    
+//     console.log(str);
+    
+// }
