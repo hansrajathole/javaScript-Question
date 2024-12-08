@@ -956,3 +956,60 @@
 //     console.log(str);
     
 // }
+
+
+
+
+// print butterfly 
+let n = 4
+
+for(let i = 1 ; i<= n ; i++){
+    let str = ""
+    for(let j = 1 ; j<=i ; j++){
+        str += "* "
+    }
+    for(let k = 1 ; k<= 2*n-i-i ; k++){
+        str += "  "
+    }
+    for(let l = 1 ; l<=i ; l++){
+        str += "* "
+    }
+    console.log(str);
+    
+
+}
+
+
+for(let i = n ; i > 0 ; i--){
+    let str = ""
+    for(let j = 1 ; j<=i ; j++){
+        str += "* "
+    }
+    for(let k = 1 ; k<= 2*n-i-i ; k++){
+        str += "  "
+    }
+    for(let l = 1 ; l<=i ; l++){
+        str += "* "
+    }
+    console.log(str);
+    
+
+}
+
+
+
+// for(let i = 1 ; i<= n ; i++){
+//     let str = ""
+//     for(let l = 1 ; l<=n-i+1 ; l++){
+//         str += "* "
+//     }
+//     for(let j = 1 ; j<=i*2-2; j++){
+//         str += "  "
+//     }
+//     for(let k = 1 ; k<= n-i+1 ; k++){
+//         str += "* "
+//     }
+//     console.log(str);
+    
+
+// }
