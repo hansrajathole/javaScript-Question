@@ -1,6 +1,5 @@
-for(let k = 1 ; k<= 2*n-i-i ; k++){
-        str += "  "
-    }
-    for(let l = 1 ; l<=i ; l++){
-        str += "* "
-    }
+if(sum === dup){
+//     console.log("ArmStrong Number "+sum+"  "+dup);
+// }else{
+//     console.log("Not ArmStrong Number "+sum);
+// }

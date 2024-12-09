@@ -593,6 +593,10 @@
 
 
 
+
+
+
+
 //=====================================================================
 //                                   Question no.36
 
@@ -600,22 +604,41 @@
 // Accept an integer n and print the following pattern for n. 
 
 
-let n = 5
+// let n = 5
 
-for(let i = 1 ; i<=n ; i++){
-    for(let j = 1 ; j<= n*2-1 ; j++){
-        if(i==j || (i+j == n*2)){
-            process.stdout.write("*")
-        }else{
+// for(let i = 1 ; i<=n ; i++){
+//     for(let j = 1 ; j<= n*2-1 ; j++){
+//         if(i==j || (i+j == n*2)){
+//             process.stdout.write("*")
+//         }else{
             
-            process.stdout.write(" ")
-        }
+//             process.stdout.write("-")
+//         }
         
-    }
+//     }
     
-    console.log();
-}
+//     console.log();
+// }
 
+
+
+
+
+
+
+
+
+
+//=====================================================================
+//                                   Question no.37
+// S u m   of   a r ray   e l e m e nt s
+// Write a program that accepts the size of an array 'n' from the user, creates 
+// an array nums of size 'n', takes 'n' inputs into the array, and then prints the 
+// sum and mean of all elements.
+
+
+
+// let n = 5, nums = [10, 15, 20, 25, 30]
 
 
 
@@ -1020,3 +1043,38 @@ for(let i = 1 ; i<=n ; i++){
 //     console.log()
 // }
 
+
+
+
+
+
+
+
+// ArmStrong Number
+
+let n = 1634;
+let dup = n
+let sum = 0 ;
+
+function countt(n){
+    let count=0;
+    while(n){
+        n = Math.floor(n/10)
+        count++
+    }
+    return count;
+}
+
+let count = countt(n);
+while(n>0){
+    let last = n%10;
+    sum += Math.pow(last,count);
+    n = Math.floor(n/10);
+}
+console.log(sum);
+
+if(sum === dup){
+    console.log("ArmStrong Number "+sum);
+}else{
+    console.log("Not ArmStrong Number "+sum);
+}
