@@ -551,21 +551,44 @@
 // Tr i a n g l e
 // Accept an integer n and print the following pattern for n. 
 
-let n = 5 
+// let n = 5 
 
-for(let i=1 ; i<=n ; i++){
-    for(let j = 1 ; j<=n-i; j++){
-        process.stdout.write(" ")
-    }
-    for(let k = 1 ; k<=i ; k++){
+// for(let i=1 ; i<=n ; i++){
+//     for(let j = 1 ; j<=n-i; j++){
+//         process.stdout.write(" ")
+//     }
+//     for(let k = 1 ; k<=i ; k++){
         
-        process.stdout.write("* ")
-    }
-    console.log();
+//         process.stdout.write("* ")
+//     }
+//     console.log();
     
-}
+// }
 
 
+
+
+
+//=====================================================================
+//                                   Question no.36
+//  Patte r n   X
+//Accept an integer n and print the following pattern for n. 
+
+// let n = 5;
+
+// for(let i = 1 ; i<=n ; i++){
+//     for(let j = 1 ; j<= n ; j++){
+//         if(i==j || (i+j == n+1)){
+//             process.stdout.write("* ")
+//         }else{
+            
+//             process.stdout.write("  ")
+//         }
+        
+//     }
+    
+//     console.log();
+// }
 
 
 
