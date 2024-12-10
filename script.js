@@ -757,6 +757,10 @@
 // }
 // }
 
+
+
+
+
 // find max number
 // let arr =  [1, 5, 3, 9]
 // let max = arr[0]
@@ -769,6 +773,9 @@
 // }
 
 // console.log(max)
+
+
+
 
 // print table of n
 
@@ -788,6 +795,12 @@
 //     console.log(str);
 
 // }
+
+
+
+
+
+
 
 // print tringle of star
 
@@ -1052,29 +1065,77 @@
 
 // ArmStrong Number
 
-let n = 1634;
-let dup = n
-let sum = 0 ;
+// let n = 1634;
+// let dup = n
+// let sum = 0 ;
 
-function countt(n){
-    let count=0;
-    while(n){
-        n = Math.floor(n/10)
-        count++
+// function countt(n){
+//     let count=0;
+//     while(n){
+//         n = Math.floor(n/10)
+//         count++
+//     }
+//     return count;
+// }
+
+// let count = countt(n);
+// while(n>0){
+//     let last = n%10;
+//     sum += Math.pow(last,count);
+//     n = Math.floor(n/10);
+// }
+// console.log(sum);
+
+// if(sum === dup){
+//     console.log("ArmStrong Number "+sum);
+// }else{
+//     console.log("Not ArmStrong Number "+sum);
+// }
+
+
+
+
+
+// Print all Divisior
+
+// let n = 36
+
+// for(let i = 1 ; i<=n ; i++){
+//     if(n%i == 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+// let a = []
+// let size = Number(prompt("Enter array's size "))
+// for(let i = 0 ; i<size ; i++ ){
+//     a[i] =  Number(prompt("Enter "+(i+1)+"th element "))
+// }
+// let sum = 0;
+// for(let i = 0 ; i< size ; i++){
+//     sum += a[i]
+// }
+
+// console.log(sum);
+
+
+
+
+
+let arr = [20,30,40,50,60,80]
+let gretest = Math.max(arr[0],arr[1])
+let sgreatest = Math.min(arr[0],arr[1])
+
+for(let i = 2 ; i<arr.length ; i++){
+    if(arr[i]>gretest){
+        sgreatest = gretest
+        gretest = arr[i]
+    }else if(arr[i]>sgreatest){
+        sgreatest = arr[i]
     }
-    return count;
-}
 
-let count = countt(n);
-while(n>0){
-    let last = n%10;
-    sum += Math.pow(last,count);
-    n = Math.floor(n/10);
+    
 }
-console.log(sum);
-
-if(sum === dup){
-    console.log("ArmStrong Number "+sum);
-}else{
-    console.log("Not ArmStrong Number "+sum);
-}
+console.log(sgreatest);
