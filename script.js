@@ -1123,19 +1123,22 @@
 
 
 
+// second largest 
 
-let arr = [20,30,40,50,60,80]
-let gretest = Math.max(arr[0],arr[1])
-let sgreatest = Math.min(arr[0],arr[1])
+// let arr = [20,30,40,50,60,80]
+// let gretest = Math.max(arr[0],arr[1])
+// let sgreatest = Math.min(arr[0],arr[1])
 
-for(let i = 2 ; i<arr.length ; i++){
-    if(arr[i]>gretest){
-        sgreatest = gretest
-        gretest = arr[i]
-    }else if(arr[i]>sgreatest){
-        sgreatest = arr[i]
-    }
+// for(let i = 2 ; i<arr.length ; i++){
+//     if(arr[i]>gretest){
+//         sgreatest = gretest
+//         gretest = arr[i]
+//     }else if(arr[i]>sgreatest){
+//         sgreatest = arr[i]
+//     }
 
     
-}
-console.log(sgreatest);
+// }
+// console.log(sgreatest);
+
+
