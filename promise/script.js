@@ -69,7 +69,7 @@
 
 
 
-
+//======================================================
 // let arr = [1,5,8,12,5,20,25]
 // let con = true
 // for(let i = 0; i<arr.length-1;i++){
@@ -88,12 +88,13 @@
 // }
 
 
+//======================================================
 
-let arr = [10,20,30,40,50]
-let temp = arr[arr.length-1]
-for(let i = arr.length-1 ; i>0 ;  i--){
-    arr[i] =arr[i-1]
-}
-arr[0] = temp
+// let arr = [10,20,30,40,50]
+// let temp = arr[arr.length-1]
+// for(let i = arr.length-1 ; i>0 ;  i--){
+//     arr[i] =arr[i-1]
+// }
+// arr[0] = temp
 
-console.log(arr);
+// console.log(arr);
